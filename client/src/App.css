@@ -1,0 +1,120 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0.5rem;
+  font-family: tahoma;
+  color: #444;
+  align-items: center;
+}
+
+.button {
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 11px 26px 11px 26px;
+  background: linear-gradient(180deg, #013a41 26.71%, #013237 99.36%);
+  box-shadow: 0px 20px 24px 3px rgba(76, 167, 113, 0.42);
+  margin-bottom: 2rem;
+}
+
+.button:hover {
+  background: white;
+  cursor: pointer;
+  color: rgb(17, 172, 233);
+  border: 1px solid rgb(17, 172, 233);
+}
+
+/* MovieSearch css */
+
+.main {
+  width: 1200px;
+  background-color: rgb(15, 136, 235);
+  border: 3px solid rgb(183, 17, 233);
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+}
+
+.movie_by_james {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+/* MultipleActorsMovieCss */
+
+.MovieListMain {
+  width: 1200px;
+  background-color: rgb(15, 136, 235);
+  border: 3px solid rgb(183, 17, 233);
+  display: flex;
+  border-radius: 20px;
+}
+
+.MovieList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+/* Actors2000And2015 css*/
+.Actors {
+  width: 1200px;
+  background-color: rgb(15, 136, 235);
+  border: 3px solid rgb(183, 17, 233);
+  display: flex;
+  margin-top: 2rem;
+  border-radius: 20px;
+}
+
+.actors2000And2015 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+/* MovieRatings css */
+.MovieRatingMain {
+  width: 1200px;
+  background-color: rgb(15, 136, 235);
+  border: 3px solid rgb(183, 17, 233);
+  display: flex;
+  margin-top: 2rem;
+  border-radius: 20px;
+}
+
+.movieRating {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+/* UpdateRating css */
+
+.updateRatingMain {
+  width: 1200px;
+  background-color: rgb(15, 136, 235);
+  border: 3px solid rgb(183, 17, 233);
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+}
+
+.updateRating {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2rem;
+}
